@@ -19,8 +19,14 @@ class ViewController: UIViewController {
     @IBAction private func touchNumber(_ sender: UIButton) {
         let digit = sender.currentTitle!
         if userIsCurrentlyTyping{
-            let textCurrentlyInDisplay = display.text!
-            display.text = textCurrentlyInDisplay + digit
+            if digit == "."{
+                if !(display.text?.contains("."))!{
+                    appendText(digit: digit)
+                }
+            }else{
+                appendText(digit: digit)
+            }
+            
         }
         else{
             display.text = digit
@@ -28,7 +34,13 @@ class ViewController: UIViewController {
         userIsCurrentlyTyping = true
     }
     
+    private func appendText(digit: String){
+        let textCurrentlyInDisplay = display.text!
+        display.text = textCurrentlyInDisplay + digit
+    }
+    
     //Computed property identified by curly braces after
+    //Does the conversion of String to Double when dealing with the display
     private var displayValue: Double{
         get{
             return Double(display.text!)!

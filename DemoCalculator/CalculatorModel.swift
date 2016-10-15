@@ -33,7 +33,6 @@ class CalculatorModel{
         case UnaryOperation((Double) -> Double)
         case BinaryOperation((Double, Double) -> Double)
         case Equals
-        
     }
     
     func performOperation(symbol: String){
