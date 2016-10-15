@@ -11,12 +11,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var display: UILabel!
+    @IBOutlet private weak var display: UILabel!
     
-    var userIsCurrentlyTyping = false
+    private var userIsCurrentlyTyping = false
     
     
-    @IBAction func touchNumber(_ sender: UIButton) {
+    @IBAction private func touchNumber(_ sender: UIButton) {
         let digit = sender.currentTitle!
         if userIsCurrentlyTyping{
             let textCurrentlyInDisplay = display.text!
@@ -28,16 +28,28 @@ class ViewController: UIViewController {
         userIsCurrentlyTyping = true
     }
     
-
-    @IBAction func performOperation(_ sender: UIButton) {
-        userIsCurrentlyTyping = false
-        if let mathSymbol = sender.currentTitle{
-            if mathSymbol == "π" {
-                display.text = String(M_PI)
-            }
+    //Computed property identified by curly braces after
+    private var displayValue: Double{
+        get{
+            return Double(display.text!)!
+        }
+        set{
+            display.text = String(newValue)
         }
     }
+    
 
-
+    private var model = CalculatorModel()
+    
+    @IBAction private func performOperation(_ sender: UIButton) {
+        if userIsCurrentlyTyping {
+            model.setOperand(operand: displayValue)
+            userIsCurrentlyTyping = false
+        }
+        if let mathSymbol = sender.currentTitle{
+            model.performOperation(symbol: mathSymbol)
+        }
+        displayValue = model.result
+    }
 }
 
