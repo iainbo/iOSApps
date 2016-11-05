@@ -102,7 +102,9 @@
                                                         <rect key="frame" x="88.5" y="0.0" width="78" height="108.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="7"/>
+                                                        <state key="normal" title="7">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h8R-5I-yzt"/>
                                                         </connections>
@@ -111,7 +113,9 @@
                                                         <rect key="frame" x="176.5" y="0.0" width="78.5" height="108.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="8"/>
+                                                        <state key="normal" title="8">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CkF-9I-cGq"/>
                                                         </connections>
@@ -120,7 +124,9 @@
                                                         <rect key="frame" x="265" y="0.0" width="78" height="108.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="9"/>
+                                                        <state key="normal" title="9">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dvx-j7-HRz"/>
                                                         </connections>
@@ -145,7 +151,9 @@
                                                         <rect key="frame" x="88.5" y="0.0" width="78" height="108"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="4"/>
+                                                        <state key="normal" title="4">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ou-6p-10P"/>
                                                         </connections>
@@ -154,7 +162,9 @@
                                                         <rect key="frame" x="176.5" y="0.0" width="78.5" height="108"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="5"/>
+                                                        <state key="normal" title="5">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="46D-bd-qEW"/>
                                                         </connections>
@@ -163,7 +173,9 @@
                                                         <rect key="frame" x="265" y="0.0" width="78" height="108"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="6"/>
+                                                        <state key="normal" title="6">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N5I-js-M7S"/>
                                                         </connections>
@@ -188,7 +200,9 @@
                                                         <rect key="frame" x="88.5" y="0.0" width="78" height="108.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="1"/>
+                                                        <state key="normal" title="1">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MDh-gf-4dX"/>
                                                         </connections>
@@ -197,7 +211,9 @@
                                                         <rect key="frame" x="176.5" y="0.0" width="78.5" height="108.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="2"/>
+                                                        <state key="normal" title="2">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jD2-4x-bB9"/>
                                                         </connections>
@@ -206,7 +222,9 @@
                                                         <rect key="frame" x="265" y="0.0" width="78" height="108.5"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="3"/>
+                                                        <state key="normal" title="3">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="13F-Yh-P15"/>
                                                         </connections>
@@ -231,7 +249,9 @@
                                                         <rect key="frame" x="88.5" y="0.0" width="78" height="108"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="."/>
+                                                        <state key="normal" title=".">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kWt-im-pin"/>
                                                         </connections>
@@ -240,7 +260,9 @@
                                                         <rect key="frame" x="176.5" y="0.0" width="78.5" height="108"/>
                                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="0"/>
+                                                        <state key="normal" title="0">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        </state>
                                                         <connections>
                                                             <action selector="touchNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mWF-6w-pRW"/>
                                                         </connections>
