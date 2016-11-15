@@ -50,6 +50,23 @@ class ViewController: UIViewController {
         }
     }
     
+    var savedProgram: CalculatorModel.PropertyList?
+    
+    @IBAction func save() {
+        savedProgram = model.program
+    }
+    
+    @IBAction func restore() {
+        if savedProgram != nil{
+            model.program = savedProgram!
+            displayValue = model.result
+        }
+    }
+    
+    @IBAction func clear() {
+        display.text = String(0.0)
+        model.clear()
+    }
 
     private var model = CalculatorModel()
     
